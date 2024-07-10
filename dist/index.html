@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import "./style2.css";
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- header section  -->
+    <header>
+        
+        <div class=" bg-[url('https://images.unsplash.com/photo-1605926637512-c8b131444a4b?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center bg-no-repeat h-[400px] md:h-[700px] w-full flex flex-col">
+            
+            <!-- nav bar section  -->
+            <nav class="h-[15%] flex  w-full items-center justify-around">
+                <div class="flex">
+                    <img class="w-50 h-12 ml-3 mt-3" src="https://seeklogo.com/images/Y/yelp-logo-D87674561E-seeklogo.com.png" alt="yelp logo">
+                </div>
+                <div class=" search-box flex rounded-2xl items-center  bg-white  mt-4 mb-3 ml-3 md:h-[50px] h-[30px]">
+                    <input type="text" name="task" placeholder="search.." class=" h-full flex-1">
+                    <span class="border-3 rounded-2xl bg-slate-300 h-[80%] w-[3px]"></span>
+                    <input type="text" name="location" placeholder="location" class=" h-full flex-1" >
+                    <button class="flex search-icon"><img src="https://cdn-icons-png.flaticon.com/128/6574/6574703.png " alt="serch-icon"></button>
+                   
+                </div>
+                <div class="nav-link">Yelp for Business</div>
+                <div class="nav-link">Write a Review</div>
+                <div class="nav-link">Start a Project</div>
+                <div class="md:p-2 hover:bg-[rgba(255,255,255,0.7)] text-white text-center rounded-sm text-[18px] font-semibold border-2 border-white max-[480px]:hidden cursor-pointer">Log In</div>
+                <div class="rounded-[8px] md:p-2 bg-red-600 text-white font-semibold text-[18px] hover:bg-red-700 text-center max-[480px]:hidden cursor-pointer">Sign Up</div>
+                <img class="min-[481px]:hidden h-[3rem] w-[3rem]" src="https://cdn-icons-png.flaticon.com/128/10308/10308969.png" alt="three-line-icon">
+            </nav>
+            <!-- nav bar section ends here  -->
+            <div class="flex flex-col ml-[15%] mt-[90px] justify-center">
+                <div class="text-white text-[30px] md:text-[50px] font-bold font-serif text-wrap">Taste the Crunch</div>
+                <div class="rounded-[8px] md:p-2 bg-red-600 text-white font-semibold text-[20px] hover:bg-red-700 text-center p-1 w-[200px] max-[278px]:w-[80%] mt-3">Search Meal</div>
+            </div>
+    
+        </div>
+    </header>
+    <!-- header section ends here -->
+     
+    <!-- Main section starts here  -->
+     <main>
+        <section id="Recent Activity" class="pt-[30px] flex-col items-center ">
+            <div class=" font-bold text-black text-3xl md:text-[40px] text-center pb-[35px] w-[100%] pl-[15%] pr-[15%]">
+                Recent Activity
+            </div>
+            <div class="cards-section flex flex-wrap gap-4 justify-center w-[100%] pl-[15%] pr-[15%]">
+                <div class="flex-col flex-1 border-gray-400 border-[1.2px] rounded-sm  min-w-[270px] max-w-[400px]">
+                    <div class="flex justify-start mt-2 ml-2">
+                        <img class="h-[45px] w-[45px] rounded-[50%]"  src="https://s3-media0.fl.yelpcdn.com/photo/HDNVvPVbbu6Eawssh37Y6g/60s.jpg" alt="">
+                        <div class="flex-col ml-3">
+                            <h3 class="text-black font-semibold">TB. added 2 photos</h3>
+                            <p class="text-gray-500 text-[13px]">
+                                6 minutes ago
+                            </p>
+                        </div>
+                    </div>
+                    <div class="h-[3px] ml-[5%] mr-[5%] mt-2 bg-gray-300 ">
+                    </div>
+                    
+                    <div class="w-[100%] mt-3">
+                        <img class="h-[200px] w-full" src="https://s3-media0.fl.yelpcdn.com/bphoto/eIEvQKEdybaW7Xx3ZYRsyw/l.jpg">
+                    </div>
+                        
+                    <div class=" mt-3 flex-col flex-wrap gap-1">
+                        <p class="text-ellipsis font-bold text-xl ml-2">New England Lobster Market</p>
+                        <img  class="h-[20px] w-[100px] mt-1 ml-2" src="https://ouch-cdn2.icons8.com/uJGGBMWUaBkeajyoVZd65Bb5JWrQhTf0Dh2pJHERLrA/rs:fit:368:97/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvMjY1/L2Q4YjcyYWNlLWM3/NmYtNDhlZi05NjYw/LWFmYWZmZTQ3Mjgw/NC5wbmc.png" alt="5-star">
+                        <p class="text-ellipsis text-sm  ml-2 text-wrap">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aspernatur non repellat optio dolores. Aspernatur earum repellat nesciunt illum consectetur.
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="flex-col flex-1 border-gray-400 border-[1.2px] rounded-sm  min-w-[270px] max-w-[400px]">
+                    <div class="flex justify-start mt-2 ml-2">
+                        <img class="h-[45px] w-[45px] rounded-[50%]"  src="https://s3-media0.fl.yelpcdn.com/photo/390SK_WPXxQTKXtvFN7KEw/60s.jpg" alt="">
+                        <div class="flex-col ml-3">
+                            <h3 class="text-black font-semibold">Maria added 1 photo</h3>
+                            <p class="text-gray-500 text-[13px]">
+                                2 hr ago
+                            </p>
+                        </div>
+                    </div>
+                    <div class="h-[3px] ml-[5%] mr-[5%] mt-2 bg-gray-300 ">
+                    </div>
+                    
+                    <div class="w-[100%] mt-3">
+                        <img class="h-[200px] w-full" src="https://s3-media0.fl.yelpcdn.com/bphoto/WU0PZ4Ridiv4vbBiC8QUjA/l.jpg">
+                    </div>
+                        
+                    <div class=" mt-3 flex-col flex-wrap gap-1">
+                        <p class="text-ellipsis font-bold text-xl ml-2">Toast N Egg</p>
+                        <img  class="h-[20px] w-[100px] mt-1 ml-2" src="https://ouch-cdn2.icons8.com/uJGGBMWUaBkeajyoVZd65Bb5JWrQhTf0Dh2pJHERLrA/rs:fit:368:97/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvMjY1/L2Q4YjcyYWNlLWM3/NmYtNDhlZi05NjYw/LWFmYWZmZTQ3Mjgw/NC5wbmc.png" alt="5-star">
+                        <p class="text-ellipsis text-sm  ml-2 text-wrap mb-2">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aspernatur non repellat optio dolores. Aspernatur earum repellat nesciunt illum consectetur.
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="flex-col flex-1 border-gray-400 border-[1.2px] rounded-sm  min-w-[270px] max-w-[400px]">
+                    <div class="flex justify-start mt-2 ml-2">
+                        <img class="h-[45px] w-[45px] rounded-[50%]"  src="https://s3-media0.fl.yelpcdn.com/photo/HDNVvPVbbu6Eawssh37Y6g/60s.jpg" alt="">
+                        <div class="flex-col ml-3">
+                            <h3 class="text-black font-semibold">TB. added 2 photos</h3>
+                            <p class="text-gray-500 text-[13px]">
+                                6 minutes ago
+                            </p>
+                        </div>
+                    </div>
+                    <div class="h-[3px] ml-[5%] mr-[5%] mt-2 bg-gray-300 ">
+                    </div>
+                    
+                    <div class="w-[100%] mt-3">
+                        <img class="h-[200px] w-full" src="https://s3-media0.fl.yelpcdn.com/bphoto/PUIDWhPThJGL8EQEvAQxEg/l.jpg">
+                    </div>
+                        
+                    <div class=" mt-3 flex-col flex-wrap gap-1">
+                        <p class="text-ellipsis font-bold text-xl ml-2">New England Lobster Market</p>
+                        <img  class="h-[20px] w-[100px] mt-1 ml-2" src="https://ouch-cdn2.icons8.com/uJGGBMWUaBkeajyoVZd65Bb5JWrQhTf0Dh2pJHERLrA/rs:fit:368:97/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvMjY1/L2Q4YjcyYWNlLWM3/NmYtNDhlZi05NjYw/LWFmYWZmZTQ3Mjgw/NC5wbmc.png" alt="5-star">
+                        <p class="text-ellipsis text-sm  ml-2 text-wrap mb-2">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aspernatur non repellat optio dolores. Aspernatur earum repellat nesciunt illum consectetur.
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="flex-col flex-1 border-gray-400 border-[1.2px] rounded-sm  min-w-[270px] max-w-[400px]">
+                    <div class="flex justify-start mt-2 ml-2">
+                        <img class="h-[45px] w-[45px] rounded-[50%]"  src="https://s3-media0.fl.yelpcdn.com/photo/B0l7RphXs9u84FXV6kwP0Q/60s.jpg" alt="">
+                        <div class="flex-col ml-3">
+                            <h3 class="text-black font-semibold">Neha B. wrote a review</h3>
+                            <p class="text-gray-500 text-[13px]">
+                                5 hours ago
+                            </p>
+                        </div>
+                    </div>
+                    <div class="h-[3px] ml-[5%] mr-[5%] mt-2 bg-gray-300 ">
+                    </div>
+                    
+                    <div class="w-[100%] mt-3">
+                        <img class="h-[200px] w-full" src="https://s3-media0.fl.yelpcdn.com/bphoto/r2oY9Wiqwi1K_wNhPYdDwg/l.jpg">
+                    </div>
+                        
+                    <div class=" mt-3 flex-col flex-wrap gap-1">
+                        <p class="text-ellipsis font-bold text-xl ml-2">Dumpling Home</p>
+                        <img  class="h-[20px] w-[100px] mt-1 ml-2" src="https://ouch-cdn2.icons8.com/uJGGBMWUaBkeajyoVZd65Bb5JWrQhTf0Dh2pJHERLrA/rs:fit:368:97/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvMjY1/L2Q4YjcyYWNlLWM3/NmYtNDhlZi05NjYw/LWFmYWZmZTQ3Mjgw/NC5wbmc.png" alt="5-star">
+                        <p class="text-ellipsis text-sm  ml-2 text-wrap">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aspernatur non repellat.
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="flex-col flex-1 border-gray-400 border-[1.2px] rounded-sm  min-w-[270px] max-w-[400px]">
+                    <div class="flex justify-start mt-2 ml-2">
+                        <img class="h-[45px] w-[45px] rounded-[50%]"  src="https://s3-media0.fl.yelpcdn.com/photo/psHj1BadpSm5txDT6U22jQ/60s.jpg" alt="">
+                        <div class="flex-col ml-3">
+                            <h3 class="text-black font-semibold">Florence G. added a photo</h3>
+                            <p class="text-gray-500 text-[13px]">
+                                10 hrs ago
+                            </p>
+                        </div>
+                    </div>
+                    <div class="h-[3px] ml-[5%] mr-[5%] mt-2 bg-gray-300 ">
+                    </div>
+                    
+                    <div class="w-[100%] mt-3">
+                        <img class="h-[200px] w-full" src="https://s3-media0.fl.yelpcdn.com/bphoto/vQDEMc9dYSLAGWmRQkBztQ/l.jpg">
+                    </div>
+                        
+                    <div class=" mt-3 flex-col flex-wrap gap-1">
+                        <p class="text-ellipsis font-bold text-xl ml-2">Plentea</p>
+                        <img  class="h-[20px] w-[100px] mt-1 ml-2" src="https://ouch-cdn2.icons8.com/uJGGBMWUaBkeajyoVZd65Bb5JWrQhTf0Dh2pJHERLrA/rs:fit:368:97/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvMjY1/L2Q4YjcyYWNlLWM3/NmYtNDhlZi05NjYw/LWFmYWZmZTQ3Mjgw/NC5wbmc.png" alt="5-star">
+                        <p class="text-ellipsis text-sm  ml-2 text-wrap">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aspernatur non repellat optio dolores. Aspernatur earum repellat nesciunt illum consectetur.
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="flex-col flex-1 border-gray-400 border-[1.2px] rounded-sm  min-w-[270px] max-w-[400px]">
+                    <div class="flex justify-start mt-2 ml-2">
+                        <img class="h-[45px] w-[45px] rounded-[50%]"  src="https://s3-media0.fl.yelpcdn.com/photo/iaOkC5u8SsqXzNYFE7XvhA/60s.jpg" alt="">
+                        <div class="flex-col ml-3">
+                            <h3 class="text-black font-semibold">Jenny G. added 6 photos</h3>
+                            <p class="text-gray-500 text-[13px]">
+                                15 hrs ago
+                            </p>
+                        </div>
+                    </div>
+                    <div class="h-[3px] ml-[5%] mr-[5%] mt-2 bg-gray-300 ">
+                    </div>
+                    
+                    <div class="w-[100%] mt-3">
+                        <img class="h-[200px] w-full" src="https://s3-media0.fl.yelpcdn.com/bphoto/XPh79iW9fUqgQi4exp92vg/l.jpg">
+                    </div>
+                        
+                    <div class=" mt-3 flex-col flex-wrap gap-1">
+                        <p class="text-ellipsis font-bold text-xl ml-2">New England Lobster Market</p>
+                        <img  class="h-[20px] w-[100px] mt-1 ml-2" src="https://ouch-cdn2.icons8.com/uJGGBMWUaBkeajyoVZd65Bb5JWrQhTf0Dh2pJHERLrA/rs:fit:368:97/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvMjY1/L2Q4YjcyYWNlLWM3/NmYtNDhlZi05NjYw/LWFmYWZmZTQ3Mjgw/NC5wbmc.png" alt="5-star">
+                        <p class="text-ellipsis text-sm  ml-2 text-wrap">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aspernatur non repellat optio dolores. Aspernatur earum repellat nesciunt illum consectetur.
+                        </p>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </section>
+        <section class="categories flex flex-col w-full justify-center items-center">
+            <div class="font-bold flex-1 text-3xl text-center mt-[90px] mb-[60px]">Categories</div>
+            
+            <div class="category-cards flex flex-wrap justify-around pl-[12%] pr-[12%] gap-[27px]">
+                <div class=" catogory_card">
+                    
+                    <img src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/8bc05b287157/assets/img/svg_illustrations/40x40_food_v2.svg" alt="">
+                    
+                    <h2 class="text-center text-xl font-semibold ">Restaurants</h2>
+                </div>
+                <div class=" catogory_card">
+                    
+                    <img src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/488aeb87ef6e/assets/img/svg_illustrations/40x40_gift_shops_v2.svg" alt="">
+                    
+                    <h2 class="text-center text-xl font-semibold ">Shopping</h2>
+                </div>
+                <div class=" catogory_card">
+                    
+                    <img src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/1397897c21a5/assets/img/svg_illustrations/40x40_new_v2.svg" alt="">
+                    
+                    <h2 class="text-center text-xl font-semibold ">Nightlife</h2>
+                </div>
+                <div class=" catogory_card">
+                    
+                    <img src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/0372f8e93aa9/assets/img/svg_illustrations/40x40_set_objective_v2.svg" alt="">
+                    
+                    <h2 class="text-center text-xl font-semibold ">Active Life</h2>
+                </div>
+                <div class=" catogory_card">
+                    
+                    <img src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/5bd5d2648742/assets/img/svg_illustrations/40x40_barbers_v2.svg" alt="">
+                    
+                    <h2 class="text-center text-xl font-semibold ">Beauty & Spas</h2>
+                </div>
+                <div class=" catogory_card">
+                    
+                    <img src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/5967f38fe621/assets/img/svg_illustrations/40x40_auto_v2.svg" alt="">
+                    
+                    <h2 class="text-center text-xl font-semibold ">Automotive</h2>
+                </div>
+                <div class=" catogory_card">
+                    
+                    <img src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/7fc312973cf8/assets/img/svg_illustrations/40x40_home_services_v2.svg" alt="">
+                    
+                    <h2 class="text-center text-xl font-semibold ">Home Services</h2>
+                </div>
+                <div class=" catogory_card">
+                    
+                    <img src="https://s3-media0.fl.yelpcdn.com/assets/public/40x40_more_v2.yji-961fdce2fd036f85fb01.svg" alt="">
+                    
+                    <h2 class="text-center text-xl font-semibold ">More</h2>
+                </div>
+            </div>
+        </section >
+     </main>
+     <!-- Main section ends here  -->
+
+     <!-- Footer section starts here  -->
+     <footer class="mt-[70px] bg-slate-200 h-auto">
+        <div class=" flex flex-wrap ">
+            <div class="flex flex-col min-w-[170px] flex-1 items-center mt-[40px] mb-[50px] ">
+                <h2 class="text-lg font-semibold ">About
+                </h2>
+                <div class=" mt-[20px] flex flex-col items-center ">
+                    <ul>
+                        <li>About Yelp</li>
+                        <li>Careers</li>
+                        <li>Press</li>
+                        <li>Investor Relations</li>
+                        <li>Trust & Safety</li>
+                    </ul>
+                    
+                </div>
+            </div>
+            <div class="flex flex-col min-w-[170px] flex-1 items-center mt-[40px] mb-[50px]">
+                <h2 class="text-lg font-semibold ">Yelp for Business
+                </h2>
+                <div class=" mt-[20px] flex flex-col items-center ">
+                    <ul>
+                        <li>Business Owner Login</li>
+                        <li>Advertise on Yelp</li>
+                        <li>Table Management</li>
+                        <li>Business Support</li>
+                        <li>Yelp Data for B2C</li>
+                        <li>Yelp Blog for Business</li>
+                        <li>Business Success Stories</li>
+                        <li>Yelp Data for B2B</li>
+                    </ul>
+                    
+                </div>
+            </div>
+            <div class="flex flex-col min-w-[170px] flex-1 items-center mt-[40px] ">
+                <h2 class="text-lg font-semibold ">Discover
+                </h2>
+                <div class=" mt-[20px] flex flex-col items-center ">
+                    <ul>
+                        <li>Yelp Project Cost</li>
+                        <li>Guides</li>
+                        <li>Collections</li>
+                        <li>Yelp Blog </li>
+                        <li>Support</li>
+                        <li>Developers</li>
+                    </ul>
+                    
+                </div>
+            </div>
+            
+        </div>
+     </footer>
+     <!-- footer section ends here  -->
+</body>
+</html>
